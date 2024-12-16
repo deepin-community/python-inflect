@@ -1,5 +1,119 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-inflect (7.3.1-2) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * Upstream has switched to MIT license 4+ years ago. (Closes: #1082345)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Utkarsh Gupta <utkarsh@debian.org>  Fri, 20 Sep 2024 16:27:26 +0530
+
+python-inflect (7.3.1-1) unstable; urgency=medium
+
+  * New upstream version 7.3.1
+  * Bump Standards-Version to 4.7.0, no changes
+
+ -- Arto Jantunen <viiru@debian.org>  Fri, 05 Jul 2024 07:31:24 +0300
+
+python-inflect (7.2.1-1) unstable; urgency=medium
+
+  * New upstream version 7.2.1
+
+ -- Arto Jantunen <viiru@debian.org>  Sun, 05 May 2024 17:17:31 +0300
+
+python-inflect (7.2.0-1) unstable; urgency=medium
+
+  [ Alexandre Detiste ]
+  * remove old build-dependency on python3-six
+
+  [ Arto Jantunen ]
+  * New upstream version 7.2.0
+  * Update build-deps to match new upstream requirements
+
+ -- Arto Jantunen <viiru@debian.org>  Tue, 02 Apr 2024 11:48:51 +0300
+
+python-inflect (7.0.0-1) unstable; urgency=medium
+
+  * New upstream version 7.0.0
+
+ -- Arto Jantunen <viiru@debian.org>  Thu, 17 Aug 2023 14:26:23 +0300
+
+python-inflect (6.0.4-1) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Wrap long lines in changelog entries: 2.1.0-4.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository-Browse.
+  * Update standards version to 4.6.2, no changes needed.
+
+  [ Arto Jantunen ]
+  * Point Homepage to Github instead of Pypi (thanks Lintian)
+  * New upstream version 6.0.4
+    + Upstream no longer uses nose for tests (Closes: #1018513)
+  * Update build-deps for new upstream version
+  * Enable autopkgtests using autopkgtest-pkg-pybuild
+
+ -- Arto Jantunen <viiru@debian.org>  Thu, 22 Jun 2023 12:58:12 +0300
+
+python-inflect (2.1.0-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 17 Oct 2022 04:30:54 +0100
+
+python-inflect (2.1.0-3) unstable; urgency=medium
+
+  * Note previously missed NMU changes
+
+ -- Arto Jantunen <viiru@debian.org>  Wed, 18 Nov 2020 12:03:43 +0200
+
+python-inflect (2.1.0-2) unstable; urgency=medium
+
+  * Adopt package into the team (Closes: #970282)
+  * Bump debhelper compat level to 13
+  * Bump Standards-Version, no changes
+  * Set Rules-Requires-Root to no
+
+ -- Arto Jantunen <viiru@debian.org>  Wed, 18 Nov 2020 10:14:58 +0200
+
+python-inflect (2.1.0-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * Drop python2 support; Closes: #937833
+
+ -- Sandro Tosi <morph@debian.org>  Sat, 05 Oct 2019 19:39:39 -0400
+
+python-inflect (2.1.0-1) unstable; urgency=medium
+
+  * New upstream version 2.1.0
+  * debian/control:
+   - Adds new build dependencies for setuptools-scm, nose and six
+  * debian/rules:
+   - Now uses the pybuild buildsystem
+
+ -- Iain R. Learmonth <irl@debian.org>  Mon, 07 Jan 2019 11:59:00 +0000
+
+python-inflect (0.3.1-1) unstable; urgency=medium
+
+  * New upstream version 0.3.1
+  * Bumped compat level to 11
+  * debian/control:
+   - Bumped versioned Build-Depends on debhelper to >=11
+   - Update Vcs-* URLs for salsa
+   - Updated Standards-Version to 4.1.4
+  * debian/copyright:
+   - Use secure URL for copyright format
+
+ -- Iain R. Learmonth <irl@debian.org>  Thu, 12 Jul 2018 08:30:35 +0100
+
+python-inflect (0.2.5-1.1) unstable; urgency=medium
+
+  * Non-maintainer Upload
+  * Apply patch from Adrian Bunk to correctly generate dependencies for
+    the python 3 package (Closes: #867438)
+
+ -- Arto Jantunen <viiru@debian.org>  Mon, 17 Jul 2017 08:47:48 +0300
+
+python-inflect (0.2.5-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #806450)
+
+ -- Iain R. Learmonth <irl@debian.org>  Thu, 24 Dec 2015 15:29:49 +0000
